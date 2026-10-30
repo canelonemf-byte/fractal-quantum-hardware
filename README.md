@@ -1,31 +1,47 @@
 # fractal-quantum-hardware
 
-Fractal Quantum Hardware.
+# fractal-quantum-hardware  Fractal Quantum Hardware.  **Autor:** Lázaro López Paz · **Licencia:** MIT (ver `LICENSE`)
 
-**Autor:** Lázaro López Paz · **Licencia:** MIT (ver `LICENSE`)
+## Autoría
 
-## Carpetas de origen en Google Drive
+- **Autor:** Lázaro López Paz, El Prat de Llobregat, Barcelona, España
+- **ORCID:** [0000-0001-8601-1963](https://orcid.org/0000-0001-8601-1963)
+- Elaborado con asistencia de inteligencia artificial
+- Sin afiliaciones institucionales
 
-- https://drive.google.com/drive/folders/1KpgtrYOpK1i1OaZD0TvJLXsxUADFCCDW
+## Estado
 
-## Archivos incluidos
+Proyecto en desarrollo / documentación. No afirmar validación experimental salvo que el código o los informes del propio repositorio lo demuestren.
 
-- (ninguno legible como texto)
+## Contenido (raíz)
 
-## Pendiente: en Drive
+```
+DATOS_PENDIENTES.md
+datos_pendientes.yaml
+fractal/
+LICENSE
+README.md
+REFERENCIAS.md
+requirements.txt
+tests/
+```
 
-Archivos binarios (presentaciones, PDFs grandes, vídeos, imágenes, zips, docx) que no se pudieron pasar a texto. Siguen en Drive:
+## Instalación
 
-- Arquitecturas_Cuántico-Fractales_2026.png · pendiente: en Drive · https://drive.google.com/file/d/18cJxdBZWL6-2PwoAwhy2WaIWPE-RW2a1/view?usp=drivesdk
-- Dossier Maestro de I+D.pdf · pendiente: en Drive · https://drive.google.com/file/d/13hO0Ru0TETVjYoxn670Qc7ZkwTIi_uyO/view?usp=drivesdk
-- Fractal_Quantum_Hardware-1.pdf · pendiente: en Drive · https://drive.google.com/file/d/1twfEYj9HHnUMt3mMSOc9uDBxpnPspsF5/view?usp=drivesdk
-- Hardware_Cuántico_Fractal.mp4 · pendiente: en Drive · https://drive.google.com/file/d/1JrCQqW2rTwvjfU_Iu9nbJTnE6PyuKrYh/view?usp=drivesdk
+```bash
+pip install -r requirements.txt
+```
 
----
-Los archivos `.trashed-*`, las copias («- copia») y los duplicados entre carpetas no se han listado.
 
-## Módulo funcional `fractal` (esperando datos)
+## Uso
 
-fractal: dimensión fractal por conteo de cajas (modelo de referencia público, no los datos del autor). Sustituye el ejemplo de Sierpinski por el patrón real en datos_pendientes.yaml.
+Archivos Python principales (revisar cada uno antes de ejecutar):
+- `fractal/__init__.py`
+- `fractal/pendientes.py`
+- `tests/conftest.py`
+- `tests/test_fractal.py`
 
-`pip install -r requirements.txt && python -m pytest -q`. Los datos que faltan están en [DATOS_PENDIENTES.md](DATOS_PENDIENTES.md).
+
+## Licencia
+
+Ver archivo `LICENSE` (o `LICENSE.md`) en la raíz. Documentación bajo CC BY 4.0 cuando aplique; código habitualmente MIT, salvo indicación contraria.
